@@ -3,10 +3,9 @@
 using namespace std;
 
 void FizzBuzz(int num) {
-  if (num <= 2) {
+  if (num <= 1) {
 	cout << num << endl;
 	return;
-
   }
   for (int i = 0; i < num + 1; ++i) {
 	if (i % 3 == 0 && i % 5 == 0) {
