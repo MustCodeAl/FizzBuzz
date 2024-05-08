@@ -9,12 +9,12 @@ void FizzBuzz(int num) {
   }
   for (int i = 0; i < num + 1; ++i) {
 	if (i % 3 == 0 && i % 5 == 0) {
-	  cout << "FizzBuzz(" << i << ")" << endl;
+	  cout << "FizzBuzz(  " << i << "  )" << endl;
 
 	} else if (i % 3 == 0)
-	  std::cout << "Fizz(" << i << ")" << endl;
+	  std::cout << "Fizz( " << i << " )" << endl;
 	else if (i % 5 == 0) {
-	  std::cout << "Buzz(" << i << ")" << endl;
+	  std::cout << "Buzz( " << i << " )" << endl;
 	} else {
 	  cout << i << endl;
 	}
